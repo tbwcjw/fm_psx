@@ -96,7 +96,7 @@ int fps_update ()
 
 void do_flip ()
 {
-    sysUtilCheckCallback ();
+    //sysUtilCheckCallback ();
     flip ();
     tiny3d_Flip ();
 }
